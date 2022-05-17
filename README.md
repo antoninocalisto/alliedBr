@@ -1,6 +1,6 @@
 # alliedBr
 
-> The Angular 2+ framework with typescript was used in this project and also the CSS framework called Font Awesome to hesitate in the application's styling. 
+> The Angular 2+ framework with typescript was used in this project and also the CSS framework called Tailwind CSS to hesitate in the application's styling. 
 
 ## Install
 

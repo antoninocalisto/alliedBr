@@ -35,7 +35,8 @@ http://localhost:4200/
 ```
 
 Para questão de conhecimento, algumas dependências e suas versões abaixo são listadas:
--> node v16.14.2
--> npm 8.5.0
--> Angular CLI Global 13.3.1
--> Angular CLI Local 13.2.6
+* node v16.14.2
+* npm 8.5.0
+* Angular CLI Global 13.3.1
+* Angular CLI Local 13.2.6
+

@@ -1,0 +1,110 @@
+.input-search {
+    min-width: 300px;
+    width: 100%;
+    border: 1px solid;
+    @apply border-blue-500;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-search{
+    background: #1D66C4;
+    padding: 8px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .select-page-result {
+    background: white;
+    border: 1px solid #d6d6d6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .btn-new-session {
+    background: white;
+    border: 1px solid #0F956D;
+    color: #0F956D;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 5px;
+  }
+  
+  .btn-new-session:hover {
+    color: white;
+    border: 1px solid #0F956D;
+    background: #0F956D;
+  }
+  
+  .title-col-table{
+    color:#575757;
+    border:1px solid #1D66C4;
+    padding: 5px 20px;
+    min-width: 135px !important;
+  }
+  
+  .info-plus{
+    margin-left: 10px;
+    border: 1px solid #1D66C4;
+    color: #1D66C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //font-weight: bold;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    font-size: 13px;
+  }
+  
+  .btn-accessar {
+    text-decoration: underline;
+    color: #1D66C4;
+    font-weight: bold;
+    border: 2px solid #1D66C4;
+    font-size: 14px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: 0.5s all;
+  }
+  .btn-accessar:hover {
+    background: #1D66C4;
+    color: white;
+  }
+  
+  .status-conf {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 100%;
+  }
+  
+  .footer-table{
+    padding: 10px;
+    color:#575757;
+    border:2px solid #1D66C4;
+  }
+  
+  .select-table {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 3px 10px;
+    background: white;
+    border-radius: 5px;
+    border:2px solid #1D66C4;
+  }
+  
+  .loader-dist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+  }
+  

@@ -1,0 +1,212 @@
+
+.cabrir {
+    @apply cursor-pointer;
+    @apply px-4;
+    @apply py-2;
+    @apply rounded;
+    @apply bg-indigo-500;
+    @apply text-black;
+    transition: 200ms;
+  }
+  
+  .cabrir:hover {
+    @apply bg-indigo-600;
+  }
+  .h-60-p{
+    height: 60%;
+  }
+  
+  .btn-back{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    background: #1D66C4;
+    border-radius: 4px;
+  }
+  .btn-back:hover{
+    background: #5e8cce;
+  }
+  
+  
+  .btn-access {
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    background:#dadada;
+    color: #565656;
+    cursor: pointer;
+    transition: 1s all;
+    margin: 10px 2px;
+  }
+  
+  .btn-access:hover {
+    background: #9a9999;
+    color: white;
+  }
+  
+  .input-login {
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+  }
+  
+  .title-page{
+    color: #5F5F5F;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .box-content {
+    width: 100%;
+    min-height: 359px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  }
+  
+  .text-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1D66C4;
+    margin-bottom: 20px;
+  }
+  
+  .component-menu{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 500px;
+    height: 407px;
+    background: #FFFFFF;
+    border: 2px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .btn-initial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 1s all;
+  }
+  
+  .btn-initial:hover {
+    box-shadow: none;
+    background: #727375;
+    margin-top: 10px;
+  }
+  
+  .btn-one {
+    width: 200px;
+    height: 154.08px;
+    background: #1D66C4;
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .btn-two {
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 200px;
+    height: 154.08px;
+    border-radius: 12px;
+    background: #033F8C;
+    border: 1px solid #1D66C4;
+    box-sizing: border-box;
+  }
+  
+  .btn-three {
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 200px;
+    height: 154.08px;
+    border-radius: 12px;
+    background: #9E7FBD;
+    border: 1px solid #9E7FBD;
+    box-sizing: border-box;
+  }
+  
+  .card-session {
+    padding: 40px;
+    border-radius: 10px;
+    background: white;
+    @apply shadow;
+  }
+  
+  .info-tooltip {
+    border-radius: 100%;
+    font-size: 10px;
+    margin: 1px;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #666;
+  }
+  /* Tooltip container */
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black; !* If you want dots under the hoverable text *!*/
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    font-size: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    color: #555;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  

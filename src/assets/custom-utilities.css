@@ -1,0 +1,38 @@
+.text-gray-sebrae {
+    color: #727375;
+  }
+  
+  .gray-back-sebrae {
+    background-image: linear-gradient(to top,#56c1ff,#1a648e);
+  }
+  
+  .bg-gray-session {
+    background-color: #E5E5E5;
+  }
+  
+  
+  .bg-conf {
+    background: #7ACA95;
+  }
+  
+  .bg-rasc {
+    background: #F4A328;
+  }
+  
+  
+  .blue-back-sebrae {
+    background-color: #1D66C4;
+  }
+  
+  .transition-session {
+    transition: 0.8s all;
+  }
+  
+  .min-h-700 {
+    min-height: 700px !important;
+  }
+  
+  .font-10 {
+    font-size: 10px;
+  }
+  

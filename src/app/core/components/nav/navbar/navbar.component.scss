@@ -1,0 +1,36 @@
+.nav-bar {
+    width:60px;
+    min-width: 60px;
+    max-width: 200px;
+    transition: width 1s;
+    cursor: pointer;
+    border-right: 1px solid #d2d2d2;
+  }
+  
+  .content-menu {
+    padding: 10px 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: #1a648e;
+    transition: 1s all;
+  }
+  
+  .content-menu:hover {
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(0,16,79), #1a648e);
+  }
+  
+  .selected-menu {
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(0,16,79), #1a648e);
+  }
+  
+  .nav-bar:hover {
+    width: 300px;
+  }
+  
+  .text-menu {
+    width: 115px;
+  }
+  

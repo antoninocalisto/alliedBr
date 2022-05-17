@@ -1,0 +1,33 @@
+
+<nav class="h-full flex flex-col flex-grow nav-bar"
+     (mouseenter)="showText = true" (mouseleave)="showText = false">
+  <ul class="mt-10 flex flex-col items-end justify-end">
+    <div (mouseenter)="orderHover = true" (mouseleave)="orderHover = false" class="w-full flex content-menu items-center"
+         *ngIf="nivel !== '1'"
+         [ngClass]="{'selected-menu': orderSelected, 'justify-end': showText, 'justify-center': !showText }"
+         >
+      <span class="ml-2 text-menu" *ngIf="showText" (click)="getHomeDocSpider()">Inicio</span>
+      <img *ngIf="!orderHover && !orderSelected"[src]="iniSelectedSrc">
+      <img *ngIf="orderHover || orderSelected"  [src]="iniSrc">
+      
+    </div>
+
+    <div (mouseenter)="indicadoresHover = true" (mouseleave)="indicadoresHover = false" class="w-full flex justify-end content-menu items-center"
+         [ngClass]="{'selected-menu': indicadoresSelected, 'justify-end': showText, 'justify-center': !showText }">
+      <span class="ml-2 text-menu" *ngIf="showText" (click)="getInformationPlan()">Planos</span>
+      <img *ngIf="!indicadoresHover && !indicadoresSelected"[src]="docSrc"> 
+      <img *ngIf="indicadoresHover || indicadoresSelected"  [src]="docSelectedSrc">
+      
+    </div>
+
+    <div (mouseenter)="analyticHover = true" (mouseleave)="analyticHover = false" class="w-full flex justify-end content-menu items-center"
+         [ngClass]="{'selected-menu': analyticSelected, 'justify-end': showText, 'justify-center': !showText }"
+         *ngIf="nivel !== '1'">
+      <span class="ml-2 text-menu" *ngIf="showText" (click)="getAboutDocSpider()">Sobre</span> 
+      <img *ngIf="!analyticHover && !analyticSelected"[src]="aboutSrc">
+      <img *ngIf="analyticHover || analyticSelected"  [src]="aboutSelectedSrc">
+      
+    </div>
+  </ul>
+
+</nav>

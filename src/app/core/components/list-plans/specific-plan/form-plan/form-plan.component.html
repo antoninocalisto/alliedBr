@@ -1,0 +1,59 @@
+<div class="md:p-10 text-gray-sebrae flex flex-col h-full w-full mt-5 md:px-16 p-5">
+    <form [formGroup]="newOrganizationForm" (submit)="submitForm($event)">
+        <div>
+          <div class="flex flex-wrap">
+            <div class="w-full w-min-300 md:w-auto flex flex-col md:mr-2 mb-5">
+              <label class="label-alliedbr uppercase flex justify-between">
+                Nome
+              </label>
+              <input placeholder="" type="text" maxlength="100" class="input-alliedbr" [formControl]="name"
+                     [(ngModel)]="postForm.name">
+            
+            </div>
+            <div class="w-full w-min-300 md:w-auto flex flex-col md:mr-2 mb-5">
+              <label class="label-alliedbr uppercase flex justify-between">
+                Email
+              </label>
+              <input placeholder="" type="text" maxlength="100" class="input-alliedbr" [formControl]="email"
+                     [(ngModel)]="postForm.email">
+              
+            </div>
+            <div class="w-full w-min-300 md:w-auto flex flex-col md:mr-2 mb-5">
+                <label class="label-alliedbr uppercase flex justify-between">
+                  CPF
+                </label>
+                <input placeholder="" type="text" maxlength="100" class="input-alliedbr" [formControl]="cpf"
+                       [(ngModel)]="postForm.cpf">
+                
+              </div>
+          </div>
+    
+        </div>
+        <div class="w-full w-min-300 md:w-auto flex flex-col md:mr-2 mb-5">
+            <div class="flex flex-wrap">
+                <div class="w-full w-min-300 md:w-auto flex flex-col md:mr-2 mb-5">
+                  <label class="label-alliedbr uppercase flex justify-between">
+                    Nascimento
+                  </label>
+                  <input placeholder="" type="text" maxlength="100" class="input-alliedbr" [formControl]="nascimento"
+                         [(ngModel)]="postForm.nascimento">
+                
+                </div>
+                <div class="w-full w-min-300 md:w-auto flex flex-col md:mr-2 mb-5">
+                  <label class="label-alliedbr uppercase flex justify-between">
+                    Telefone
+                  </label>
+                  <input placeholder="" type="text" maxlength="100" class="input-alliedbr" [formControl]="telefone"
+                         [(ngModel)]="postForm.telefone">
+                  
+                </div>
+             
+              </div>
+        </div>
+    
+      </form>
+    
+      <div class="flex flex-col mb-10 md:mb-3 md:flex-row md:w-2/3 justify-start items-center mt-10" >
+        <button class="btn-submit" (click)="submitForm($event)">Enviar</button>
+      </div>
+</div>
